@@ -30,8 +30,8 @@ apply() {
     nord0="#2E3440" \
     nord1="#3B4252" \
     nord3="#4C566A" \
-    nord4="#D8DEE9" \
-    nord5="#E5E9F0" \
+    nord4="#F1F4FA" \
+    nord5="#ECEFF4" \
     nord6="#ECEFF4" \
     nord7="#8FBCBB" \
     nord8="#88C0D0" \
@@ -39,7 +39,8 @@ apply() {
     nord11="#BF616A" \
     nord13="#EBCB8B" \
     nord14="#A3BE8C" \
-    nord15="#B48EAD"
+    nord15="#B48EAD" \
+    nord16="#F6F9FF"
   local \
     nord0_rgb="rgb(46,52,64)"
     nord1_rgb="rgb(59,66,82)"
@@ -54,8 +55,8 @@ apply() {
   _write use-transparent-background "false"
   log 4 "Applied background- and foreground colors"
 
-  _write bold-color "'$nord4'"
-  _write bold-color-same-as-fg "true"
+  _write bold-color "'$nord16'"
+  _write bold-color-same-as-fg "false"
   log 4 "Applied bold color and configuration"
 
   _write use-theme-colors "false"
